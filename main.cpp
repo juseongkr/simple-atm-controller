@@ -62,8 +62,11 @@ bool runTest()
 
 int main(int argc, char *argv[])
 {
-	if (runTest())
+	if (runTest()) {
 		std::cout << "all tests passed" << std::endl << std::endl;
+	} else {
+		std::cout << "test failed" << std::endl << std::endl;
+	}
 
 	Atm *atm = new Atm();
 	atm->run();

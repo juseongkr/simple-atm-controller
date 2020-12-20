@@ -7,6 +7,6 @@ $ make
 
 ## Run
 ```bash
-./run.out
+$ ./run.out
 ```
 
